@@ -17,7 +17,7 @@ The host computer reads the sensor readings using the `Encoder.py` script.
 
 When running the `Encoder.py` script, follow the command given below.
 
-> `Encoder.py <serial-address-radio> <serial-address-sensor>`
+> `Encoder.py`
 
 Running this command will output the generated one-pad key and the raw and encrypted temperature reading.
 Copy the key to use in the decryption process.
@@ -34,6 +34,6 @@ This operation is handled by the `Decoder.py` script.
 
 When running the `Decoder.py` script, follow the command given below.
 
-> `Decoder.py <serial-address-radio> <one-pad key=A,B,C,...>`
+> `Decoder.py`
 
 Running this command will output the raw temperature readings captured from the sensor-tile in a possibly a different host computer. 
